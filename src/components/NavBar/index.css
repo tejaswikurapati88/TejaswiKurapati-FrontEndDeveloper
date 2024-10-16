@@ -60,7 +60,7 @@
         height: 64px;
         padding: 10px 10px 10px 24px;
         gap: 260px;
-        opacity: 0px;
+        opacity: 1px;
         border-radius: 48px;
     }
     .nav-mid-cont{
