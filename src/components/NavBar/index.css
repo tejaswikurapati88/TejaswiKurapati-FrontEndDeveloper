@@ -6,12 +6,12 @@
     width: 100%;
 }
 .nav-mid-cont{
+    opacity: 1px;
     display: flex;
     flex-direction: row;
     padding: 15px;
     justify-content: space-between;
     border-radius: 48px;
-    opacity: 0px;
     border: 1px solid #0F373C;
     width:  454px;
     height: 32px;
@@ -73,7 +73,8 @@
         display: none;
     }
     .nav-img{
-        display: block;
+        display: inline;
+        opacity: 1px;
     }
     .nax-bars-img{
         display: inline;
