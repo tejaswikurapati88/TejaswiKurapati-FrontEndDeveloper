@@ -1,0 +1,94 @@
+.bg-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Sans-serif';
+    height: 100vh; 
+    width: 100%;
+    background-image: url('https://res.cloudinary.com/dkvptcm7q/image/upload/v1729058958/image_ck3bkb.png');
+    background-size: cover;
+    
+}
+.main-heading{
+    color: #ffffff;
+    font-size: 72px;
+    font-weight: 500;
+    line-height: 76px;
+    text-align: center;
+    font-family: 'Sans-serif';
+}
+.heading-span{
+    background: #B0F9FF;
+    color: #0B2A2D;
+    font-family: 'Sans-serif';
+    border: none;
+    border-radius: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.para{
+    font-size:20px;
+    font-weight: 400;
+    text-align: center;
+    color: #B0FAFFB2;
+    margin-top: 0px;
+}
+.openapp-button{
+    box-shadow: 40px #8BF9E833 inset;
+backdrop-filter: blur(7.5px);
+background-color: #8BF9E803;
+width: 131px;
+height: 44px;
+gap: 0px;
+border-radius: 12px;
+opacity: 0px;
+border: none;
+
+top: 256px;
+left: 654.5px;
+padding: 12px 24px 12px 24px;
+color: #ffffff;
+border: 1px solid;
+cursor: pointer;
+}
+
+.features-heading{
+    display: none;
+}
+
+@media (max-width: 480px){
+    .main-heading{
+        margin-top: 50px;
+        font-size: 35.86px;
+        font-family: 'Sans-serif';
+        font-weight: 300;
+        line-height: 43px;
+        letter-spacing: var(--letterspacing-072);
+        text-align: center;
+
+    }
+    .para{
+        font-family: 'Sans-serif';
+        font-size: var(--fontsize20);
+        font-weight: 400;
+        line-height: var(--lineheight28);
+        text-align: center;
+
+    }
+    .openapp-button{
+        box-shadow:1px #4CDDFD inset;
+        box-shadow: 0px 0px 4px 2px #FFFFFF1F inset;
+        box-shadow: 0px -8px 16px -4px #37C5E599 inset;
+        box-shadow: 0px 6px 20px 0px #37C5E51F;
+        box-shadow: 0px 4px 12px 0px #37C5E51F;
+        box-shadow: 0px 4px 6px 0px #37C5E51F;
+        background-color:  #CDFCFF;
+        box-shadow: 0px 1px 4px 0px #37C5E51F;
+        color: #0B2A2D;
+        margin-top: 30px;
+    }
+    .features-heading{
+
+    }
+    
+}
