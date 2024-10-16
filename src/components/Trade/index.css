@@ -1,0 +1,26 @@
+.Trade-con{
+    display: flex;
+
+}
+.imgs{
+    margin: 5px;
+}
+.sm-imgs{
+    display: none;
+}
+
+@media (max-width: 480px){
+    .Trade-con{display: none;}
+    .sm-trade-con{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    
+    .sm-imgs{
+        display: inline;
+        margin: 5px;
+    }
+}

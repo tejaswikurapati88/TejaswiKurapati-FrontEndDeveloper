@@ -3,7 +3,7 @@
     flex-direction: column;
     align-items: center;
     font-family: 'Sans-serif';
-    height: 100vh; 
+    height: 100vh;
     width: 100%;
     background-image: url('https://res.cloudinary.com/dkvptcm7q/image/upload/v1729058958/image_ck3bkb.png');
     background-size: cover;
@@ -55,6 +55,19 @@ cursor: pointer;
 .features-heading{
     display: none;
 }
+.features-container{
+    background: #00161D;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 50px;
+}
+.trade-bg-cont{
+    display: flex;
+    
+}
 
 @media (max-width: 480px){
     .main-heading{
@@ -88,7 +101,9 @@ cursor: pointer;
         margin-top: 30px;
     }
     .features-heading{
-
+        display: block;
+        color: #ffffff;
+        font-family: 'Sans-serif';
     }
     
 }
