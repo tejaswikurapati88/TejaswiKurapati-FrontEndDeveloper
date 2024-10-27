@@ -16,6 +16,7 @@
     line-height: 76px;
     text-align: center;
     font-family: 'Sans-serif';
+    margin-top: 80px;
 }
 .heading-span{
     background: #B0F9FF;
@@ -43,13 +44,22 @@ gap: 0px;
 border-radius: 12px;
 opacity: 0px;
 border: none;
-
+margin-top: 30px;
 top: 256px;
 left: 654.5px;
 padding: 12px 24px 12px 24px;
 color: #ffffff;
 border: 1px solid;
 cursor: pointer;
+animation-name: changeColr;
+animation-duration: 2s;
+
+}
+
+@keyframes changeColr {
+    from {}
+    to{}
+    
 }
 
 .features-heading{
@@ -60,7 +70,6 @@ cursor: pointer;
     width: 100%;
     display: flex;
     flex-direction: column;
-    align-items: center;
     padding-top: 40px;
     padding-bottom: 50px;
 }

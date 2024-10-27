@@ -13,10 +13,10 @@ const NavBar=()=>{
                  alt='bars'
                 />
                 <div className='nav-mid-cont'>
-                    <p className='nav-cont-p'>Features</p>
+                    <p className='nav-cont-p first'>Features</p>
                     <p className='nav-cont-p'>Why Us</p>
                     <p className='nav-cont-p'>Tokenomics</p>
-                    <p className='nav-cont-p'>Roadmap</p>
+                    <p className='nav-cont-p last'>Roadmap</p>
                 </div>
                 <div className='login-cont'>
                     <button className='login-btn'>Log in</button>

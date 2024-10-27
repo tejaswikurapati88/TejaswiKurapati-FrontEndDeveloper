@@ -1,12 +1,41 @@
 .Trade-con{
     display: flex;
-
+    width: 100%;
+    align-self: flex-start;
+    position: relative;
 }
 .imgs{
     margin: 5px;
+    z-index: 1;
 }
 .sm-imgs{
     display: none;
+}
+.d-fle{
+    display: flex;
+}
+.fl-imgs{
+    display: flex;
+    position: absolute;
+    opacity: 1;
+    align-self: flex-start;
+    flex-direction: column;
+    margin-left: 70px;
+    z-index: 1;
+}
+.video{
+    
+}
+.left{
+    align-self: flex-end;
+}
+.right{
+    align-self: flex-start;
+    animation-name: rotateVideo;
+    rotate: 360deg;
+}
+.videos-cont{
+    display: flex;
 }
 
 @media (max-width: 480px){
